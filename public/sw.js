@@ -1,6 +1,6 @@
 /* Public application files only. Never cache user GPS, DOM snapshots or routes. */
-const CACHE='cmc-mawqifi-v8-20261104-r2';
-const APP_VERSION='8.0.0';
+const CACHE='cmc-mawqifi-v9-20261113-r2';
+const APP_VERSION='9.0.0';
 const BASE=new URL('./',self.location.href),INDEX=new URL('index.html',BASE).href;
 const STATIC=['index.html','manifest.webmanifest','icon.svg','icons/icon-192.png','icons/icon-512.png','assets/cmc-logo.svg','assets/cmc-mark.svg'].map(p=>new URL(p,BASE).href);
 let current={phase:'checking',completed:0,total:STATIC.length},preparing=null;

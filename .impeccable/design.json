@@ -1,0 +1,548 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T20:30:00Z",
+  "title": "Design System: Mawqifi",
+  "extensions": {
+    "colorMeta": {
+      "chalk-ground": {
+        "role": "neutral",
+        "displayName": "Chalk Ground",
+        "canonical": "#EDE9DC",
+        "tonalRamp": [
+          "#66645F",
+          "#A19E96",
+          "#EDE9DC",
+          "#F1EDE3",
+          "#F4F2EA",
+          "#F7F6F0",
+          "#FBFAF7",
+          "#FDFDFC"
+        ]
+      },
+      "plate-paper": {
+        "role": "neutral",
+        "displayName": "Plate Paper",
+        "canonical": "#FCFAF2",
+        "tonalRamp": [
+          "#6C6C68",
+          "#ABAAA5",
+          "#FCFAF2",
+          "#FDFBF5",
+          "#FDFCF7",
+          "#FEFDFA",
+          "#FEFEFC",
+          "#FFFEFE"
+        ]
+      },
+      "plate-paper-2": {
+        "role": "neutral",
+        "displayName": "Plate Paper 2",
+        "canonical": "#F4F0E3",
+        "tonalRamp": [
+          "#696762",
+          "#A6A39A",
+          "#F4F0E3",
+          "#F6F3E9",
+          "#F8F6EE",
+          "#FAF9F3",
+          "#FCFBF8",
+          "#FEFEFC"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#13241D",
+        "tonalRamp": [
+          "#080F0C",
+          "#0D1814",
+          "#13241D",
+          "#42504A",
+          "#717C77",
+          "#9CA3A0",
+          "#C6CAC9",
+          "#E7E9E8"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Ink Soft",
+        "canonical": "#33463C",
+        "tonalRamp": [
+          "#161E1A",
+          "#233029",
+          "#33463C",
+          "#5C6B63",
+          "#85908A",
+          "#A9B1AD",
+          "#CED3D0",
+          "#EBECEC"
+        ]
+      },
+      "muted-ink": {
+        "role": "neutral",
+        "displayName": "Muted Ink",
+        "canonical": "#55655B",
+        "tonalRamp": [
+          "#252B27",
+          "#3A453E",
+          "#55655B",
+          "#77847C",
+          "#99A39D",
+          "#B8BEBA",
+          "#D6DAD8",
+          "#EEF0EF"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Rule",
+        "canonical": "#C9C2B0",
+        "tonalRamp": [
+          "#56534C",
+          "#898478",
+          "#C9C2B0",
+          "#D4CEC0",
+          "#DFDAD0",
+          "#E8E5DE",
+          "#F2F0EC",
+          "#FAF9F7"
+        ]
+      },
+      "rule-soft": {
+        "role": "neutral",
+        "displayName": "Rule Soft",
+        "canonical": "#DDD7C8",
+        "tonalRamp": [
+          "#5F5C56",
+          "#969288",
+          "#DDD7C8",
+          "#E4DFD3",
+          "#EBE7DE",
+          "#F1EEE8",
+          "#F7F5F2",
+          "#FCFBFA"
+        ]
+      },
+      "pine": {
+        "role": "primary",
+        "displayName": "Pine",
+        "canonical": "#0B4C3A",
+        "tonalRamp": [
+          "#052119",
+          "#073427",
+          "#0B4C3A",
+          "#3C7061",
+          "#6D9489",
+          "#99B4AC",
+          "#C4D4D0",
+          "#E7EDEB"
+        ]
+      },
+      "pine-deep": {
+        "role": "primary",
+        "displayName": "Pine Deep",
+        "canonical": "#073326",
+        "tonalRamp": [
+          "#031610",
+          "#05231A",
+          "#073326",
+          "#395C51",
+          "#6A857D",
+          "#97A9A4",
+          "#C3CECB",
+          "#E6EBE9"
+        ]
+      },
+      "pine-soft": {
+        "role": "primary",
+        "displayName": "Pine Soft",
+        "canonical": "#E4EBE2",
+        "tonalRamp": [
+          "#626561",
+          "#9BA09A",
+          "#E4EBE2",
+          "#E9EFE8",
+          "#EFF3EE",
+          "#F4F7F3",
+          "#F9FAF8",
+          "#FCFDFC"
+        ]
+      },
+      "pine-line": {
+        "role": "primary",
+        "displayName": "Pine Line",
+        "canonical": "#A9BFAF",
+        "tonalRamp": [
+          "#49524B",
+          "#738277",
+          "#A9BFAF",
+          "#BACCBF",
+          "#CBD9CF",
+          "#DBE4DD",
+          "#EAF0EC",
+          "#F6F9F7"
+        ]
+      },
+      "signal-orange": {
+        "role": "secondary",
+        "displayName": "Signal Orange",
+        "canonical": "#A54E0F",
+        "tonalRamp": [
+          "#472206",
+          "#70350A",
+          "#A54E0F",
+          "#B7713F",
+          "#C9956F",
+          "#D9B59A",
+          "#E9D5C5",
+          "#F6EDE7"
+        ]
+      },
+      "orange-soft": {
+        "role": "secondary",
+        "displayName": "Orange Soft",
+        "canonical": "#F6E5D4",
+        "tonalRamp": [
+          "#6A625B",
+          "#A79C90",
+          "#F6E5D4",
+          "#F8EADD",
+          "#FAEFE5",
+          "#FBF4ED",
+          "#FDF9F5",
+          "#FEFCFB"
+        ]
+      },
+      "orange-line": {
+        "role": "secondary",
+        "displayName": "Orange Line",
+        "canonical": "#E0C1A1",
+        "tonalRamp": [
+          "#605345",
+          "#98836D",
+          "#E0C1A1",
+          "#E6CDB4",
+          "#ECDAC7",
+          "#F2E5D8",
+          "#F8F0E8",
+          "#FCF9F6"
+        ]
+      },
+      "timetable-blue": {
+        "role": "tertiary",
+        "displayName": "Timetable Blue",
+        "canonical": "#33566B",
+        "tonalRamp": [
+          "#16252E",
+          "#233A49",
+          "#33566B",
+          "#5C7889",
+          "#859AA6",
+          "#A9B8C1",
+          "#CED6DB",
+          "#EBEEF0"
+        ]
+      },
+      "danger": {
+        "role": "tertiary",
+        "displayName": "Danger",
+        "canonical": "#962C1D",
+        "tonalRamp": [
+          "#41130C",
+          "#661E14",
+          "#962C1D",
+          "#AB564A",
+          "#C08077",
+          "#D3A6A0",
+          "#E6CCC9",
+          "#F4EAE8"
+        ]
+      },
+      "chalk": {
+        "role": "neutral",
+        "displayName": "Chalk",
+        "canonical": "#F7F3E6",
+        "tonalRamp": [
+          "#6A6863",
+          "#A8A59C",
+          "#F7F3E6",
+          "#F9F5EB",
+          "#FAF8F0",
+          "#FCFAF4",
+          "#FDFCF9",
+          "#FEFEFC"
+        ]
+      },
+      "muted-ink-dark": {
+        "role": "neutral",
+        "displayName": "Muted Ink (Dark)",
+        "canonical": "#9FAEA2",
+        "tonalRamp": [
+          "#444B46",
+          "#6C766E",
+          "#9FAEA2",
+          "#B2BEB5",
+          "#C5CEC7",
+          "#D7DDD8",
+          "#E8ECE9",
+          "#F5F7F6"
+        ]
+      },
+      "rule-dark": {
+        "role": "neutral",
+        "displayName": "Rule (Dark)",
+        "canonical": "#2E3D34",
+        "tonalRamp": [
+          "#141A16",
+          "#1F2923",
+          "#2E3D34",
+          "#58645D",
+          "#828B85",
+          "#A7AEAA",
+          "#CDD0CE",
+          "#EAECEB"
+        ]
+      },
+      "toast-scrim": {
+        "role": "neutral",
+        "displayName": "Toast Scrim",
+        "canonical": "#000000A6",
+        "tonalRamp": [
+          "#000000",
+          "#000000",
+          "#000000A6",
+          "#333333",
+          "#666666",
+          "#949494",
+          "#C2C2C2",
+          "#E6E6E6"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The three measured facts and direction times. Changa at 600, tabular numerals."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Stop names and state titles. Changa at 600."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Reading copy in Readex Pro; 16px/1.85, lead capped at 56ch."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Fact labels, source lines, chips and metadata at 12px/1.6."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Actions and direction names at 14px/600; body family."
+      },
+      "utility": {
+        "displayName": "Utility",
+        "purpose": "13px/1.7 support copy: timing line, panel summaries, stop rows, text buttons."
+      },
+      "input": {
+        "displayName": "Input",
+        "purpose": "15px/1.7 select and textarea text."
+      },
+      "display-compact": {
+        "displayName": "Display Compact",
+        "purpose": "Fact values at ≤560px: clamp(1.5rem, 7.2vw, 1.9rem)."
+      },
+      "display-narrow": {
+        "displayName": "Display Narrow",
+        "purpose": "Fact values at ≤400px: 1.45rem."
+      },
+      "display-near": {
+        "displayName": "Display Near",
+        "purpose": "Long near values: clamp(1.05rem, 3.6vw, 1.3rem)."
+      },
+      "direction-time-compact": {
+        "displayName": "Direction Time Compact",
+        "purpose": "21px direction times below 560px."
+      },
+      "tab-compact": {
+        "displayName": "Tab Compact",
+        "purpose": "20px stop tab below 560px."
+      }
+    },
+    "shadows": [
+      {
+        "name": "plate",
+        "value": "0 1px 0 #13241d08, 0 26px 48px -40px #13241d66",
+        "purpose": "The answer plate at rest: a printed sheet, not a floating app card."
+      },
+      {
+        "name": "sheet",
+        "value": "0 30px 80px -30px #00000080",
+        "purpose": "Modal sheets above the #07140f99 backdrop."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Default entrance and state easing."
+      },
+      {
+        "name": "value-in",
+        "value": "value-in .45s cubic-bezier(.16,1,.3,1) both",
+        "purpose": "Fact values enter from 7px below; stagger 0/40/80ms."
+      },
+      {
+        "name": "rule-in",
+        "value": "rule-in .55s cubic-bezier(.16,1,.3,1) both",
+        "purpose": "The measured rule draws from the reading edge."
+      },
+      {
+        "name": "pulse",
+        "value": "pulse 1.6s ease-in-out infinite",
+        "purpose": "Waiting line and its square tracer; disabled under prefers-reduced-motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "narrow",
+        "value": "380px"
+      },
+      {
+        "name": "phone",
+        "value": "400px"
+      },
+      {
+        "name": "mobile",
+        "value": "560px"
+      },
+      {
+        "name": "tablet",
+        "value": "640px"
+      },
+      {
+        "name": "two-column",
+        "value": "920px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The single confident action: store the location or refresh it.",
+      "html": "<button type=\"button\" class=\"ds-btn-primary\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M20 11a8 8 0 1 0-2.3 6.7\"/><path d=\"M20 4v7h-7\"/></svg>تحديث الموقع</button>",
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:10px 18px;background:var(--pine,#0B4C3A);color:var(--chalk,#F7F3E6);border:1px solid var(--pine,#0B4C3A);border-radius:0;font:600 14px/1.4 'Readex Pro','Changa',Tahoma,Arial,sans-serif;cursor:pointer;transition:background .2s ease,border-color .2s ease}\n.ds-btn-primary:hover{background:var(--pine-deep,#073326);border-color:var(--pine-deep,#073326)}\n.ds-btn-primary:focus-visible{outline:2px solid var(--signal-orange,#A54E0F);outline-offset:3px}\n.ds-btn-primary svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "A secondary action on the plate, such as sharing stop information.",
+      "html": "<button type=\"button\" class=\"ds-btn-ghost\">مشاركة</button>",
+      "css": ".ds-btn-ghost{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:10px 18px;background:transparent;color:var(--ink,#13241D);border:1px solid var(--rule,#C9C2B0);border-radius:0;font:600 14px/1.4 'Readex Pro','Changa',Tahoma,Arial,sans-serif;cursor:pointer;transition:background .2s ease,border-color .2s ease}\n.ds-btn-ghost:hover{background:var(--plate-2,#F4F0E3);border-color:var(--ink-2,#33463C)}\n.ds-btn-ghost:focus-visible{outline:2px solid var(--ink,#13241D);outline-offset:3px}"
+    },
+    {
+      "name": "Direction Switch",
+      "kind": "nav",
+      "refersTo": "direction-switch",
+      "description": "Two-up ruled route switch; the active segment is a solid pine field.",
+      "html": "<div class=\"ds-switch\"><button type=\"button\" class=\"active\"><span class=\"name\">الذهاب<span class=\"meta\">كلميم ← المدينة</span></span><span class=\"time\">07:30</span></button><button type=\"button\"><span class=\"name\">الإياب<span class=\"meta\">المدينة ← كلميم</span></span><span class=\"time\">13:45</span></button></div>",
+      "css": ".ds-switch{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--rule,#C9C2B0);background:var(--plate,#FCFAF2);direction:rtl}\n.ds-switch button{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:64px;padding:10px 16px;border:0;border-inline-end:1px solid var(--rule,#C9C2B0);background:transparent;color:var(--ink,#13241D);text-align:start;cursor:pointer}\n.ds-switch button:last-child{border-inline-end:0}\n.ds-switch button.active{background:var(--pine,#0B4C3A);color:var(--chalk,#F7F3E6)}\n.ds-switch .name{display:flex;flex-direction:column;gap:2px;font:600 14px/1.4 'Readex Pro','Changa',Tahoma,Arial,sans-serif}\n.ds-switch .meta{font:400 12px/1.6 'Readex Pro','Changa',Tahoma,Arial,sans-serif;color:var(--muted,#55655B)}\n.ds-switch .active .meta{color:#E4EEE0}\n.ds-switch .time{font:600 24px/1 'Changa','Readex Pro',Tahoma,Arial,sans-serif;direction:ltr;font-variant-numeric:tabular-nums}\n.ds-switch button:focus-visible{outline:2px solid var(--signal-orange,#A54E0F);outline-offset:-4px}"
+    },
+    {
+      "name": "GPS Chip",
+      "kind": "chip",
+      "refersTo": "gps-chip",
+      "description": "A compact reading chip with a square signal and a tabular accuracy value.",
+      "html": "<div class=\"ds-gps\"><span class=\"signal\"></span><span>قراءة أولية</span><b dir=\"ltr\">±12 م</b></div>",
+      "css": ".ds-gps{display:inline-flex;align-items:center;gap:8px;min-height:44px;max-width:100%;padding:7px 10px;border:1px solid var(--rule,#C9C2B0);background:var(--plate-2,#F4F0E3);color:var(--ink-2,#33463C);font:400 12px/1.5 'Readex Pro','Changa',Tahoma,Arial,sans-serif;direction:rtl}\n.ds-gps .signal{width:8px;height:8px;background:var(--pine,#0B4C3A);flex:none}\n.ds-gps b{font:600 13px/1.5 'Changa','Readex Pro',Tahoma,Arial,sans-serif;color:var(--ink,#13241D);font-variant-numeric:tabular-nums;white-space:nowrap}"
+    },
+    {
+      "name": "Measured Facts",
+      "kind": "custom",
+      "refersTo": "fact",
+      "description": "The signature rule: three facts, square provenance nodes, and a source line under every value.",
+      "html": "<div class=\"ds-facts\"><div class=\"ds-fact\"><span class=\"ds-node modelled\"></span><p class=\"ds-label\">المسافة</p><p class=\"ds-value\">15<span class=\"ds-unit\">متر</span></p><p class=\"ds-source\">مشيًا على الشوارع</p></div><div class=\"ds-fact\"><span class=\"ds-node modelled\"></span><p class=\"ds-label\">المشي</p><p class=\"ds-value\">1<span class=\"ds-unit\">دقيقة</span></p><p class=\"ds-source\">على 75 م/دقيقة</p></div><div class=\"ds-fact\"><span class=\"ds-node estimate\"></span><p class=\"ds-label\">موعد الحافلة</p><p class=\"ds-value\" dir=\"ltr\">07:32</p><p class=\"ds-source estimate\">تقدير حسابي</p></div></div>",
+      "css": ".ds-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));max-width:560px;margin-top:10px;padding-bottom:10px;border-top:1px solid var(--ink,#13241D);border-bottom:1px solid var(--rule-soft,#DDD7C8);direction:rtl}\n.ds-fact{position:relative;min-width:0;padding:16px 12px 4px;border-inline-start:1px solid var(--rule-soft,#DDD7C8)}\n.ds-fact:first-child{border-inline-start:0;padding-inline-start:0}\n.ds-fact:last-child{padding-inline-end:0}\n.ds-node{position:absolute;top:-5px;inset-inline-start:12px;width:9px;height:9px;background:var(--pine,#0B4C3A);box-shadow:0 0 0 2px var(--plate,#FCFAF2)}\n.ds-fact:first-child .ds-node{inset-inline-start:0}\n.ds-node.modelled{background:linear-gradient(90deg,var(--pine,#0B4C3A) 50%,var(--plate,#FCFAF2) 50%);border:1px solid var(--pine,#0B4C3A)}\n.ds-node.estimate{background:var(--signal-orange,#A54E0F)}\n.ds-label{font:500 12px/1.6 'Readex Pro','Changa',Tahoma,Arial,sans-serif;color:var(--muted,#55655B);margin:0 0 5px}\n.ds-value{font:600 30px/1.15 'Changa','Readex Pro',Tahoma,Arial,sans-serif;letter-spacing:-.015em;color:var(--ink,#13241D);font-variant-numeric:tabular-nums;margin:0}\n.ds-unit{font:500 12px/1.6 'Readex Pro','Changa',Tahoma,Arial,sans-serif;color:var(--muted,#55655B);margin-inline-start:4px}\n.ds-source{font:400 12px/1.6 'Readex Pro','Changa',Tahoma,Arial,sans-serif;color:var(--muted,#55655B);margin:6px 0 0}\n.ds-source.estimate{color:var(--signal-orange,#A54E0F)}"
+    },
+    {
+      "name": "Stop Row",
+      "kind": "card",
+      "refersTo": "stop-row",
+      "description": "A 56px ruled row for a stop; selected state fills pine-soft and the number square.",
+      "html": "<button type=\"button\" class=\"ds-stoprow selected\"><span class=\"ds-stopnum\">02</span><span class=\"ds-stopname\">قبالة صيدلية إفني</span><span class=\"ds-stoptime est\">≈ 07:32</span><span class=\"ds-stopmark\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M20 12H4\"/><path d=\"m10 6-6 6 6 6\"/></svg></span></button>",
+      "css": ".ds-stoprow{display:grid;grid-template-columns:30px minmax(0,1fr) auto 44px;align-items:center;gap:10px;width:100%;min-height:56px;padding:9px 2px;border:0;border-bottom:1px solid var(--rule-soft,#DDD7C8);background:transparent;color:var(--ink,#13241D);text-align:start;cursor:pointer;direction:rtl;font:400 13px/1.6 'Readex Pro','Changa',Tahoma,Arial,sans-serif}\n.ds-stoprow:hover{background:var(--plate-2,#F4F0E3)}\n.ds-stoprow.selected{background:var(--pine-soft,#E4EBE2)}\n.ds-stopnum{width:30px;height:30px;display:grid;place-items:center;border:1px solid var(--rule,#C9C2B0);background:var(--plate,#FCFAF2);font:600 12px/1 'Changa','Readex Pro',Tahoma,Arial,sans-serif;font-variant-numeric:tabular-nums;direction:ltr}\n.ds-stoprow.selected .ds-stopnum{background:var(--pine,#0B4C3A);border-color:var(--pine,#0B4C3A);color:var(--chalk,#F7F3E6)}\n.ds-stopname{min-width:0}\n.ds-stoptime{font:600 14.5px/1.4 'Changa','Readex Pro',Tahoma,Arial,sans-serif;color:var(--ink-2,#33463C);font-variant-numeric:tabular-nums;white-space:nowrap;direction:ltr}\n.ds-stoptime.est{color:var(--signal-orange,#A54E0F)}\n.ds-stopmark{width:44px;height:44px;display:grid;place-items:center;border:1px solid var(--rule,#C9C2B0);color:var(--ink-2,#33463C);background:var(--plate,#FCFAF2)}\n.ds-stopmark svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}\n.ds-stoprow:focus-visible{outline:2px solid var(--signal-orange,#A54E0F);outline-offset:-3px}"
+    },
+    {
+      "name": "Answer Plate",
+      "kind": "card",
+      "refersTo": "plate",
+      "description": "The only strong card on the page: paper, a hairline rule, and one low shadow.",
+      "html": "<div class=\"ds-plate\"><div class=\"ds-plate-head\"><span class=\"ds-tab\">02</span><div><h2>قبالة صيدلية إفني</h2><p class=\"ds-street\">شارع الحسن الثاني — طريق إفني</p></div></div><p class=\"ds-status\"><span class=\"mark\"></span>أقرب موقف حسب بيانات المشي</p></div>",
+      "css": ".ds-plate{max-width:620px;padding:28px;background:var(--plate,#FCFAF2);border:1px solid var(--rule,#C9C2B0);border-radius:0;box-shadow:0 1px 0 #13241d08,0 26px 48px -40px #13241d66;direction:rtl}\n.ds-plate-head{display:flex;align-items:flex-start;gap:14px}\n.ds-tab{flex:none;width:50px;height:54px;display:grid;place-items:center;background:var(--pine,#0B4C3A);color:var(--chalk,#F7F3E6);font:600 23px/1 'Changa','Readex Pro',Tahoma,Arial,sans-serif;direction:ltr;font-variant-numeric:tabular-nums}\n.ds-plate h2{font:600 clamp(21px,3.4vw,27px)/1.5 'Changa','Readex Pro',Tahoma,Arial,sans-serif;letter-spacing:-.01em;color:var(--ink,#13241D);margin:0}\n.ds-street{font:400 12.5px/1.7 'Readex Pro','Changa',Tahoma,Arial,sans-serif;color:var(--muted,#55655B);margin:4px 0 0}\n.ds-status{display:flex;align-items:center;gap:7px;margin:12px 0 0;font:400 12px/1.6 'Readex Pro','Changa',Tahoma,Arial,sans-serif;color:var(--muted,#55655B)}\n.ds-status .mark{width:7px;height:7px;background:var(--pine,#0B4C3A)}"
+    },
+    {
+      "name": "Method Sheet",
+      "kind": "custom",
+      "refersTo": "sheet",
+      "description": "A native-dialog surface for provenance, install help, and sharing.",
+      "html": "<div class=\"ds-sheet\"><div class=\"ds-sheethead\"><h2>كيف نحسب هذا؟</h2><button type=\"button\" class=\"ds-sheetclose\" aria-label=\"إغلاق\">×</button></div><div class=\"ds-sheetbody\"><p>كل رقم في هذه الصفحة له مصدر واضح. لا نعرض رقمًا لا نستطيع تفسيره.</p><p>تُحسب المسافة على شبكة شوارع محفوظة، ووقت الانطلاق والوصول من الجدول المقدم، ومواعيد المواقف الوسيطة تقديرًا حسابيًا.</p></div></div>",
+      "css": ".ds-sheet{max-width:560px;background:var(--plate,#FCFAF2);border:1px solid var(--rule,#C9C2B0);box-shadow:0 30px 80px -30px #00000080;direction:rtl}\n.ds-sheethead{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 18px;border-bottom:1px solid var(--rule,#C9C2B0);position:sticky;top:0;background:var(--plate,#FCFAF2)}\n.ds-sheethead h2{font:600 18px/1.5 'Changa','Readex Pro',Tahoma,Arial,sans-serif;letter-spacing:-.01em;color:var(--ink,#13241D);margin:0}\n.ds-sheetclose{width:44px;height:44px;display:grid;place-items:center;border:1px solid transparent;background:transparent;color:var(--ink-2,#33463C);font:400 24px/1 'Readex Pro',Tahoma,Arial,sans-serif;cursor:pointer}\n.ds-sheetclose:hover{border-color:var(--rule,#C9C2B0);background:var(--plate-2,#F4F0E3)}\n.ds-sheetclose:focus-visible{outline:2px solid var(--signal-orange,#A54E0F);outline-offset:3px}\n.ds-sheetbody{padding:18px;font:400 13.5px/1.9 'Readex Pro','Changa',Tahoma,Arial,sans-serif;color:var(--ink-2,#33463C)}\n.ds-sheetbody p{margin:0 0 12px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Campus Noticeboard",
+    "overview": "Mawqifi is a wayfinding plate, not a map. It borrows the grammar of a printed campus board: a chalk ground, a warm paper plate, pine enamel for institutional ink, hairline rules, square tick marks, and numbers large enough to read at arm's length. The interface answers which stop, how far, when — and then shows its work. The user picked this direction from three cards; it replaces an indigo product-sheet direction with something rooted in place.",
+    "keyCharacteristics": [
+      "Chalk ground and warm plate; no gradients, glass, photography or fake texture.",
+      "Pine is institutional ink; orange is reserved for estimates, attention and focus.",
+      "Changa for display and numbers, Readex Pro for reading; tabular digits.",
+      "Square geometry: 0px radii, 1px rules, 8–9px nodes, 50×54 stop tabs.",
+      "Signature: the measured rule with three facts and a provenance line under each.",
+      "Arabic-first RTL, Western tabular digits, bidi isolation for times and Latin tokens."
+    ],
+    "rules": [
+      {
+        "name": "The Earned Orange Rule",
+        "body": "Orange appears only when the interface is estimating, warning, or focused. If a screen has no estimate, no attention state and no focus, it has no orange.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Ground Rule",
+        "body": "The page is chalk. No gradient washes, glass panels, photographic textures or a second field color; depth comes from a hairline and one low shadow.",
+        "section": "colors"
+      },
+      {
+        "name": "The Institutional Ink Rule",
+        "body": "Pine is authority, not success. Do not use it for valid, live or confirmed states.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tabular Measure Rule",
+        "body": "Times, distances, stop numbers and counts use tabular numerals. Changa digits are a uniform 0.5em, so 07:30 and 08:00 align without a mono face.",
+        "section": "typography"
+      },
+      {
+        "name": "The Printed Sheet Rule",
+        "body": "A surface earns a shadow only if it is a sheet of paper on the board. Do not add shadows to buttons, chips, rows or the direction switch.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do put provenance in the same viewport as the number: a node on the rule, a source line under the value, and a note under the facts.",
+      "Do keep the three facts side by side at 320px; shorten labels rather than stacking the table.",
+      "Do use dir=\"ltr\" and tabular numerals for times, margins and Latin tokens inside the RTL page.",
+      "Do keep tappable controls at 44×44 or larger with a visible 2px focus ring."
+    ],
+    "donts": [
+      "Don't add pills, rounded cards, gradients, glassmorphism or a second ground color.",
+      "Don't use orange as a link color, a decorative accent or a success badge.",
+      "Don't invent an arrival time, a walking minute or a stop number to fill a column; missing is an outlined node and an em dash.",
+      "Don't put a whole live region around the plate; announce a concise state summary.",
+      "Don't let measured values flicker on every render; honor prefers-reduced-motion."
+    ]
+  }
+}

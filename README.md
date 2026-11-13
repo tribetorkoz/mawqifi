@@ -23,7 +23,7 @@
 
 Commuting in an unfamiliar city is a sequence of small uncertainties: is this GPS reading trustworthy, which stop is actually nearest, how long is the walk, when does the bus come. **Mawqifi** answers those in one Arabic-language surface, and deliberately rejects stale or outlier GPS readings instead of routing from bad data.
 
-> **Deployment note:** the v8 build is not currently live. The earlier v5 build remains archived at [`256`](https://github.com/tribetorkoz/256) and is still served at [256-six.vercel.app](https://256-six.vercel.app).
+> **Deployment note:** the v9 build is not currently live. The earlier v5 build remains archived at [`256`](https://github.com/tribetorkoz/256) and is still served at [256-six.vercel.app](https://256-six.vercel.app).
 
 ## Features
 
@@ -37,6 +37,8 @@ Commuting in an unfamiliar city is a sequence of small uncertainties: is this GP
 ## Stack
 
 Vanilla JavaScript · HTML/CSS · Service Worker · Vercel static hosting
+
+The current surface follows the **«لوحة الحرم» (campus noticeboard)** direction: a chalk-and-enamel plate, pine institutional ink, and orange earned only by estimates and attention. Tokens, provenance rules, and component behaviour live in [`DESIGN.md`](./DESIGN.md).
 
 ## Quick Start
 
