@@ -2,14 +2,14 @@
   "id": "./",
   "name": "موقفي — حافلة مدينة المهن بكلميم",
   "short_name": "موقفي",
-  "description": "موقفك الأقرب، المسافة ومدة المشي، مع فحص جودة GPS وبدائل قريبة وتخزين دون اتصال. مواعيد الحافلة تقديرية.",
+  "description": "أقرب موقف إلى مدينة المهن والكفاءات بكلميم، مسافة المشي ومدته، وموعد الحافلة التقديري. تحديد موقع بفحص للدقة، واستخدام دون إنترنت.",
   "lang": "ar",
   "dir": "rtl",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#f5f6f2",
-  "theme_color": "#075c4b",
+  "background_color": "#EDE9DC",
+  "theme_color": "#0b4c3a",
   "categories": [
     "navigation",
     "travel"
